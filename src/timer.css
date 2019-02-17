@@ -1,4 +1,11 @@
-.nom{
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20em;
+  }
+
+.nom {
     display: flex;
     justify-content: space-around;
     margin: 0em 33em;
@@ -6,7 +13,8 @@
     text-align: center;
     font-weight: bold;
 }
-.Number{
+
+.Number {
     display: flex;
     font-size: 70px;
     font-weight: inherit;
@@ -14,18 +22,33 @@
     padding-left: 2.7em;
     text-align: center;
 }
-.hours{
+
+.hours {
     width: 1.1em;
     font-size: 50px;
     padding: 0em;
     background-color: transparent;
 
 }
-.point{
+
+.point {
     width: 0.5em;
     font-size: 50px;
     padding: 0em;
 }
-.result{
+
+.result {
     display : flex;
-  }
+}
+
+.blocButton {
+    display: flex;
+    text-align : center;
+    width: 35%;
+    margin-left: 28em ;
+    justify-content: space-around;
+} 
+
+.btn {
+    width: 5em;
+}
